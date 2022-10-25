@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+</head>
+
+<body class="cuerpo">
+    <div>
+        <div>
+            <form class="row g-3 mt-3 d-flex justify-content-center">
+                <div class="col-3 text-center">
+                    <label for="staticEmail2" class=" text-end fw-bolder text-wrap px-2">
+                        Escribir numero de cartas del 1 al 10</label>
+                </div>
+                <div class="col-3">
+                    <input type="number" min="1" max="10" class="form-control" id="number" placeholder="Numero de cartas" />
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary mb-3" id="Baraja">
+                        Generar Cartas
+                    </button>
+                    <button type="button" class="btn btn-primary mb-3" id="ordena">
+                        Ordenar cartas
+                    </button>
+                </div>
+        </div>
+        </form>
     </div>
-  </body>
+    <div class="card-group container d-flex justify-content-evenly ">
+        <div class="row d-flex col-12">
+            <div id="cartita" class="row d-flex col-5 ">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
 </html>

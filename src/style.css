@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cuerpo {
+  background-color: rgba(235, 107, 235, 0.932);
+}
+
+#carta {
+  width: 18rem;
+  height: 400px;
+  margin: 15%;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+.palo {
+  width: 100%;
+
+  font-size: 3em;
+}
+
+.palo.letra {
+  width: 100%;
+  font-family: "Times";
+  font-weight: bold;
+  margin: auto;
+}
+
+.card {
+  margin: 6px;
+  width: 400px;
+  height: 200px;
+  position: "none";
+}
